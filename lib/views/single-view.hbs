@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-md-6">
+    {{#if errorMessage}}
+      <p class="bg-danger text-danger">{{errorMessage}}</p>
+    {{/if}}
+    {{#if successMessage}}
+      <p class="bg-success text-success">{{successMessage}}</p>
+    {{/if}}
+    {{{objectForm}}}
+  </div>
+</div>
+
+<script>
+  const isSingleView = true;
+</script>

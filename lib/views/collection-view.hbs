@@ -1,0 +1,8 @@
+<a id="btn-add-new-obj" class="btn btn-sm btn-primary" href="/collection/{{collectionName}}/new">Add New</a>
+
+<table id="collection-table" class="table table-striped table-hover {{collectionName}}"></table>
+
+<script>
+  const collections = {{{JSONstringify collections}}};
+  const collectionName = '{{collectionName}}';
+</script>

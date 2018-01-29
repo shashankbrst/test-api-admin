@@ -1,0 +1,19 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome.scss';
+
+.fa-heart {
+  color: red;
+}
+
+#btn-add-new-obj {
+  margin-bottom: 10px;
+}
+
+p[class*='bg-'][class*='text-'] {
+  padding: 15px;
+}
+
+.content .select2-container .select2-selection--single .select2-selection__rendered {
+  margin-top: 0px;
+}
